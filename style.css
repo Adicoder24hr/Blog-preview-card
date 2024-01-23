@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap');
+
+
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: var(--yellow);
+    align-items: center;
+    justify-content: center;
+    font-family:'Figtree', sans-serif;
+    color: var(--black);
+}
+
+main{
+    height: fit-content;
+    background-color: var(--white);
+    width: 80vw;
+    border-radius: 16px;
+    border: 2px solid black;
+}
+
+h1{
+    font-size: 20px;
+    margin: 4px;
+    padding: 10px;
+    
+}
+
+.container-1 img{
+    width: 80vw;
+    padding: 16px;
+    border-radius: 30px;
+}
+
+.container-1 .myLabel{
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--yellow);
+
+}
+
+.container-1 p{
+    font-size: 14px;
+    padding:4px;
+    margin: 10px;
+    text-align: left;
+    color: var(--grey);
+    font-weight: 100
+}
+
+div{
+    width: fit-content;
+}
+
+.container-3{
+    display: flex;
+}
+
+.container-1 .myLabel {
+    display: block;
+    width: 73px;
+    height: 35px;
+}
+
+.container-2 .para{
+    font-size: 16px;
+    padding:4px;
+    margin: 10px;
+    text-align: left;
+}
+
+.container-3 .profil {
+    width: 25%;
+    height: 10%;
+    padding: 10px;
+}
+
+.container-3 h2 {
+    padding: 9px;
+    margin: 6px;
+    font-size: 18px;
+}
+
